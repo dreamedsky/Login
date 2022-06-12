@@ -29,4 +29,7 @@
             $this -> NombreBaseDeDatos = NAME_DB;
             $this -> PuertoBaseDeDatos = PORT_DB;
         }
+        /*if(this -> $conexion === false){
+            die("ERROR: No se pudo conectar a la Base de Datos." . $mysqli->connect_error);
+        }*/
     }
